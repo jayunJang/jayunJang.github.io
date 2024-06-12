@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="wow.js"></script>
+         <script>
+              new WOW().init();
+         </script>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<title>복권 과몰입 자가진단 테스트</title>
+	<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css" />
+<style type="text/css">
+	
+
+
+    html{font-family: Pretendard Variable;background-color: #0015D0}
+		body,h1,h2,h3,p,ul,ol{margin:0px;padding:0}
+		h2{line-height: 1.2; font-size:2rem;font-weight:700;text-align:center; }
+		div{margin: 0px;padding: 20px}
+		section{margin: 0px;}
+		.wrap{width:800px;margin: auto; padding: 200px 0px
+			;position: relative; color: white}
+			.wrap2{width:800px;margin: auto; padding: 30px 195px
+			;position: relative; color: white;}
+		input{width: 20px; height: 20px; display: none;}
+		label{display: block ;width:40px;height: 40px;background: white;border-radius: 50%}
+		#ba1{color: white;font-size: 1.5rem}
+/*		#ba1{width:300px;height: 300px;background: yellow; border-radius: 50%;position: absolute; left: 250px; top:400px}*/
+		#ch1:checked ~ #la1{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba2{color: white;font-size: 1.5rem}
+		#ch2:checked ~ #la2{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba3{color: white;font-size: 1.5rem}
+		#ch3:checked ~ #la3{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba4{color: white;font-size: 1.5rem}
+		#ch4:checked ~ #la4{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba5{color: white;font-size: 1.5rem}
+		#ch5:checked ~ #la5{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba6{color: white;font-size: 1.5rem}
+		#ch6:checked ~ #la6{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba7{color: white;font-size: 1.5rem}
+		#ch7:checked ~ #la7{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba8{color: white;font-size: 1.5rem}
+		#ch8:checked ~ #la8{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+
+		#ba9{color: white;font-size: 1.5rem}
+		#ch9:checked ~ #la9{display: block ;width:38px;height:38px;background:#0015D0 ;border-radius: 50% ; border: 2px solid white;}
+/*		#ch1:checked ~ #ba1{background: green;}/*/
+		
+		.flex{display: flex; flex-direction: row; align-items: center; gap: 30px
+		}
+		.bord{border: solid white;background:#0015D0 ; padding: 70px}
+		.sld{
+  display: inline-block;
+  margin: 0 0rem;
+
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */animation-timing-function:ease-in-out; 
+}
+.p1{position:absolute; top:900px; left: -160px ; z-index:-7000}
+.p2{position:absolute; top:600px;z-index:-7000}
+.p3{position:absolute; top:200px;left: -160px;z-index:-7000}
+.p4{position:absolute; top:700px; left: 700px;z-index:-7000}
+.p5{position:absolute; top:1060px ; left: 500px;z-index:-7000}
+.p6{position:absolute; top:1300px;z-index:-7000}
+
+    .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .overlay img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+	</style>
+
+<body>
+	<section  class="wrap">
+		<img src="ball.png" class="sld p1">
+		<img src="ball.png" class="sld p2">
+		<img src="ball.png" class="sld p3">
+		<img src="ball.png" class="sld p4">
+		<img src="ball.png" class="sld p5">
+		<img src="ball.png" class="sld p6">
+		<h2>
+			복권 과몰입 자가진단 테스트
+		</h2><br><br><br>
+		<div class="bord">
+		
+	
+
+		<p>* 해당하는 항목을 선택하세요. *
+		</p>	
+		<br><br><br>
+
+		<div class="flex">
+			<input type="checkbox" id="ch1">
+			<label for="ch1" id="la1"> </label>
+			<div id="ba1">복권 당첨확률 분석하느라 업무를 게을리한 적 있다.</div>
+		</div>
+		<div class="flex">
+			<input type="checkbox" id="ch2" >
+			<label for="ch2" id="la2"> </label>
+			<div id="ba2">복권 당첨으로 일확천금의 충동을 느낀다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch3">
+			<label for="ch3" id="la3"> </label>
+			<div id="ba3">‘당첨되면 어디에 쓸까’하는 상상에 잠기곤 한다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch4" >
+			<label for="ch4" id="la4"> </label>
+			<div id="ba4">복권으로 잃은 돈은 복권 당첨금으로 되찾아야 한다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch5">
+			<label for="ch5" id="la5"> </label>
+			<div id="ba5">월수입의 1% 이상을 복권 구매에 투자하고 있다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch6" >
+			<label for="ch6" id="la6"> </label>
+			<div id="ba6">스스로 정한 금액 이상 구매하는 경우가 종종 있다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch7">
+			<label for="ch7" id="la7"> </label>
+			<div id="ba7">남에게 돈을 빌려서라도 복권을 구매한다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch8" >
+			<label for="ch8" id="la8"> </label>
+			<div id="ba8">언제 어디서나 복권 판매점을 보면 바로 구매한다.</div>
+		</div>
+<div class="flex">
+			<input type="checkbox" id="ch9">
+			<label for="ch9" id="la9"> </label>
+			<div id="ba9">복권 구매로 부부싸움이나 가족간 불화가 있다.</div>
+		</div>
+	</div>
+	<div class="overlay" id="overlay">
+        <img src="rslt.png" alt="Result Overlay">
+    </div>
+    <br><br><br><br><br>
+    <div class="wrap2">
+    <button id="showOverlay" style="font-size: 1.5rem; color: #0015D0; background-color:white;width: 200px; font-weight: 600;">결과 보기</button>
+   <button href="#back" onclick="window.open('index.html #back')" style="font-size: 1.5rem; color: #0015D0; background-color:white;width: 200px; font-weight: 600;">
+		 	 돌아가기
+</button>
+
+    <script>
+        document.getElementById('showOverlay').addEventListener('click', function () {
+            document.getElementById('overlay').style.display = 'block';
+        });
+
+        document.getElementById('overlay').addEventListener('click', function () {
+            this.style.display = 'none';
+        });
+    </script>
+		</section>
